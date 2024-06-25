@@ -6,10 +6,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Simple validation (For demonstration purposes only)
     if ($username == "admin" && $password == "password") {
         echo "Welcome, " "This is, ". $username . "!";
-    } else {
+    } 
+    
+    else {
         echo "Invalid username or password.";
     }
-} else {
+} 
+
+else {
     echo "Invalid request method.";
 }
 ?>
